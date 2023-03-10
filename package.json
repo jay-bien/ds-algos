@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev":"npx tsc --watch",
-    "test": "test"
+    "test": "jest --watchAll --no-cache"
   },
   "repository": {
     "type": "git",
