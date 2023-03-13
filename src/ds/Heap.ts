@@ -40,8 +40,19 @@ class Heap {
 
 class MinHeap extends Heap{
 
-}
+    heapifyUp():void{
+        //switch the last value inserted with its parent as long as it is smaller than its parent
+        //also check for out of bounds
+
+    }
+}   
 
 class MaxHeap extends Heap {
 
+}
+
+export {
+    Heap,
+    MaxHeap,
+    MinHeap,
 }
